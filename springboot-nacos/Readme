@@ -1,0 +1,14 @@
+一、启动docker-mysql数据库
+docker-compose up -d mysql8
+
+二、导入init/nacos-init.sql 到MySQL数据库中
+
+三、启动nacos服务
+docker-compose up -d nacos
+
+四、访问nacos服务
+
+http://192.168.99.124:8848/nacos
+
+五、注意事项
+nacos浏览器的缓存url很严重，所以，不要使用自动补全的url地址。
